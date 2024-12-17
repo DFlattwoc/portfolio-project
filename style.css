@@ -41,15 +41,15 @@ div.grid-container > div {
   line-height: 75px;
   font-size: 30px;
 }
-img{	
+#myImg{	
 	max-height: 150px;
 	max-width: 150px;
-}
+}/*
 img:hover{
 	max-height: 300px;
 	max-width: 300px;
 	margin: auto;/*trying to expand image without being overlapped by fixeed place images*/
-}
+}*/
 p{
 	
 	font-family: "Times New Roman", Times, serif;
@@ -87,4 +87,10 @@ table{
 }
 td{
 	background-color: #transparent;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+
+
 }
