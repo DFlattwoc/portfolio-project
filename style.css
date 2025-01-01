@@ -3,22 +3,15 @@ div.grid-container {
    display : grid ;
    grid-template-columns : auto auto auto ;
    grid-template-rows : auto auto ;
-   border : 2px dashed DeepSkyBlue ; 
+   border : 2px dashed white ; 
    }
 div.grid-container > div {
-  background : LightBlue ;
-  border : 2px solid DeepSkyBlue ;
+  background : white ;
+  border : 2px solid white ;
   padding : 10px;
   width: auto;
 }
-/*div.grid-container > div.1 {
-  background : #fff ;
-  width: auto;
-} an attempt at getting pointless rows white*/
-/*div.grid-container > div.1 {
-  background : #EDE8D0;
-   width: auto;
-} an attempt at getting pointless rows biege*/
+
 .mecca{
 	max-height: 300px;
 	min-height: 150px;
@@ -44,12 +37,7 @@ div.grid-container > div {
 #myImg{	
 	max-height: 150px;
 	max-width: 150px;
-}/*
-img:hover{
-	max-height: 300px;
-	max-width: 300px;
-	margin: auto;/*trying to expand image without being overlapped by fixeed place images*/
-}*/
+}
 p{
 	
 	font-family: "Times New Roman", Times, serif;
