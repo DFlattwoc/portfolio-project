@@ -1,3 +1,14 @@
+document.getElementById("central").style.backgroundColor = "beige";
+document.getElementById("central").style.borderColor = "black";
+document.getElementById("central1").style.backgroundColor = "beige";
+document.getElementById("central1").style.borderColor = "black";
+document.getElementById("central2").style.backgroundColor = "beige";
+document.getElementById("central2").style.borderColor = "black";
+
+
+
+
+
 function openModal(imgSrc) {
 	var modal = document.getElementById("myModal");
 	console.log('hello');
