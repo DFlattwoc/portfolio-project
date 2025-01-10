@@ -1,9 +1,10 @@
-document.getElementById("central").style.backgroundColor = "beige";
-document.getElementById("central").style.borderColor = "black";
-document.getElementById("central1").style.backgroundColor = "beige";
-document.getElementById("central1").style.borderColor = "black";
-document.getElementById("central2").style.backgroundColor = "beige";
-document.getElementById("central2").style.borderColor = "black";
+//document.getElementById("central").style.backgroundColor = "beige";
+//document.getElementById("central").style.borderColor = "black";
+//document.getElementById("central1").style.backgroundColor = "beige";
+//document.getElementById("central1").style.borderColor = "black";
+//document.getElementById("central2").style.backgroundColor = "beige";
+//document.getElementById("central2").style.borderColor = "black";
+//document.getElementById("girth").width = 10%;
 
 
 
