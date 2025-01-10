@@ -1,25 +1,29 @@
 * { margin : 0 ; padding : 0 ; box-sizing : border-box ; }
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+/*layout*/
 div.grid-container {
    display : grid ;
    grid-template-columns : auto auto auto ;
    grid-template-rows : auto auto ;
-   border : 2px dashed white ; 
+   border : 2px solid black ; 
    }
 div.grid-container > div {
-  background : white ;
+  background : beige ;
   border : 2px solid white ;
   padding : 10px;
   width: auto;
 }
-
-.mecca{
-	max-height: 300px;
-	min-height: 150px;
-	min-width: 60%;
-	max-width: 80%
-	opacity: 0.5;
-}
-
+/*gallery*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -34,20 +38,30 @@ div.grid-container > div {
   line-height: 75px;
   font-size: 30px;
 }
+.modal {
+  display: none; /* Hidden by default */
+}
+/*cosemetics*/
 #myImg{	
 	max-height: 150px;
 	max-width: 150px;
 }
+.mecca{
+	max-height: 300px;
+	min-height: 150px;
+	min-width: 60%;
+	max-width: 80%
+	opacity: 0.5;
+}
 p{
-	
 	font-family: "Times New Roman", Times, serif;
 	font-size-adjust: 4vw:
 }
-i{
-	
+i{	
 	font-family: "Times New Roman", Times, serif;
 	font-size: 6vw;
 }
+/*links*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -62,23 +76,15 @@ li a {
   padding: 8px 16px;
   text-decoration: none;
 }
-
 /* Change the link color on hover */
 li a:hover {
   background-color: #555;
   color: white;
 }
 .link:before {content: " ";}
-#
 table{
 	border: centre;
 }
 td{
 	background-color: #transparent;
-}
-
-.modal {
-  display: none; /* Hidden by default */
-
-
 }
